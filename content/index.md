@@ -1,13 +1,17 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is the index page.
 ---
 
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+<img src="assets/img/alexander.jpg" alt="Alexander" width="500" height="600">
 
-This is a sample home page written in markdown with some frontmatter defined.
+Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+Jag heter Alexander Olsson och är född i Danderyd i Stockholm. Jag har även bott en del av mitt liv i Göteborg när jag var liten. Jag flyttade till Karlskrona för 4 år sedan och började plugga Technical Artist på Blekinge Tekniska Högskola. Jag gick ut 2020 och valde att fortsätta plugga men denna gång webbprogrammering. Anledning till det var att jag fått upp synen för webbprogrammering genom att jag pluggad några kurser vid sidan av och nu kändes det rätt att ta och testa programmet på BTH.
+
+På fritiden gillar jag att spela dator, träna och även att laga mat. Jag älskar även att spela innebandy och jag spelat innebandy nästan hela mitt liv. Det är dock lite svårt här i Karlskrona att hålla uppe det. Jag har även varit tränare/domare för unga innebandyspelare.
+
+Tack så mycket för mig!
