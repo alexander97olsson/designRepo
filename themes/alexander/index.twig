@@ -31,10 +31,11 @@
             <span class="sr-only">Toggle Menu</span>
         </a>
         <div id="nav" role="navigation" tabindex="-1">
+            <a class="header-text">Alexander Olsson - Homepage</a>
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                 <li{% if page.id == current_page.id %} class="active" {% endif %}>
-                    <a href="{{ page.url }}">{{ page.title }}</a>
+                    <a class="buttons" href="{{ page.url }}">{{ page.title }}</a>
                     </li>
                     {% endfor %}
             </ul>
@@ -59,7 +60,7 @@
                     </a>
                 {% endfor %}
             </div>
-            <p>
+            <p class="footer-text">
                 Alexander Olsson 2020 - PA1436 H20 lp2 Teknisk webbdesign och användbarhet
             </p>
         </div>

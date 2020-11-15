@@ -3,10 +3,12 @@ Title: Home
 Description: This is the index page.
 ---
 
-Home page
+About me
 ==========================
 
-<img src="assets/img/alexander.jpg" alt="Alexander" width="500" height="600">
+<div class="image-div">
+    <img class="homepage-image" src="assets/img/alexander.jpg" alt="Alexander" width="500" height="600">
+</div>
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
