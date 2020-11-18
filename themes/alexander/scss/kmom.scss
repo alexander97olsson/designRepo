@@ -1,0 +1,37 @@
+.container-report {
+    display: grid;
+    gap: 1em 1em;
+    padding: 0 1em;
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.container-report h1 {
+    grid-column: span 2;
+    justify-self: center;
+}
+
+.kmom-report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.kmom-report.report {
+    padding-top: 7em;
+}
+
+@media (max-width: 767px) {
+    .kmom-report {
+        display: none;
+    }
+
+    .kmom-report.text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+}

@@ -1,0 +1,47 @@
+.report-boxes {
+    display: grid;
+    gap: 1em 1em;
+    padding: 0 1em;
+}
+
+.report-boxes h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    grid-column: span 1;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.button-box {
+    background-color: $foot-color;
+    padding: 0.4em 0.7em;
+    border-radius: 50%;
+}
+
+.arrow {
+    color: rgb(255, 255, 255);
+}
+
+.arrow:hover {
+    transition: 1s;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 767px) {
+    .report-boxes h1,
+    .kmom-box,
+    .kmom-box.project {
+        grid-column: span 1;
+    }
+}

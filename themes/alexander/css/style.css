@@ -6458,6 +6458,90 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.report-boxes {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+}
+
+.report-boxes h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  grid-column: span 1;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.button-box {
+  background-color: #36a6e7;
+  padding: 0.4em 0.7em;
+  border-radius: 50%;
+}
+
+.arrow {
+  color: white;
+}
+
+.arrow:hover {
+  transition: 1s;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .report-boxes h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 1;
+  }
+}
+.container-report {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+  max-width: 48em;
+  padding: 0 0.5em;
+  margin: 0 auto;
+}
+
+.container-report h1 {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.kmom-report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.kmom-report.report {
+  padding-top: 7em;
+}
+
+@media (max-width: 767px) {
+  .kmom-report {
+    display: none;
+  }
+
+  .kmom-report.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
