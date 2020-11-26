@@ -1,7 +1,7 @@
 @import 'common';
 
-@import 'varibles';
-@import 'report';
+@import 'varibles-dark';
+@import 'report-dark';
 @import 'kmom';
 
 * {
@@ -87,6 +87,7 @@ body {
 
 .flash-img {
     height: 100%;
+    filter: grayscale(60%);
 }
 
 .flash-region {
@@ -101,10 +102,6 @@ body {
     border-top: 3px solid $lines-color;
 }
 
-.footer-text {
-    font-family: 'Sansita Swashed', cursive;
-}
-
 @media (max-width: 767px) {
     .footer-text {
         font-size: 10px;
@@ -113,10 +110,11 @@ body {
 
 .footer a {
     color: $main-text-color;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .footer a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .footer p {
@@ -542,6 +540,7 @@ blockquote {
 
     .header-text {
         font-size: 1px;
+        display: none;
     }
 }
 

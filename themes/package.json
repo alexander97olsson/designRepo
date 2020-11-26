@@ -7,8 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "watch": "sass alexander/scss/style.scss alexander/css/style.css --no-source-map --watch",
-    "style": "sass alexander/scss/style.scss alexander/css/style.css --no-source-map",
-    "style-min": "sass alexander/scss/style.scss alexander/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-light": "sass alexander/scss/style.scss alexander/css/style.css --no-source-map",
+    "style-ligth-min": "sass alexander/scss/style.scss alexander/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass alexander/scss/style-dark.scss alexander/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass alexander/scss/style.scss alexander/css/style-dark.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

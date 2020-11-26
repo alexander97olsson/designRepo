@@ -7,15 +7,14 @@ Template: kmom
 Report
 ==========================
 
-
 <div class="kmom-report report">
-    <a href="kmom01">Kmom01</a>
-    <a href="kmom02">Kmom02</a>
-    <a href="kmom03">Kmom03</a>
-    <a href="#">Kmom04</a>
-    <a href="#">Kmom05</a>
-    <a href="#">Kmom06</a>
-    <a href="#">Projekt</a>
+    <a class="kmom-a" href="kmom01">Kmom01</a>
+    <a class="kmom-a" href="kmom02">Kmom02</a>
+    <a class="kmom-a" href="kmom03">Kmom03</a>
+    <a class="kmom-a" href="#">Kmom04</a>
+    <a class="kmom-a" href="#">Kmom05</a>
+    <a class="kmom-a" href="#">Kmom06</a>
+    <a class="kmom-a" href="#">Projekt</a>
 </div>
 
 <div class="kmom-report text">
