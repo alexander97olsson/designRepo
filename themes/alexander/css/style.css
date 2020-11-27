@@ -6532,7 +6532,7 @@ readers do not read off random characters that represent icons */
 }
 
 .kmom-a:hover {
-  color: #c80000;
+  color: #bd8100;
 }
 
 @media (max-width: 767px) {
@@ -7086,4 +7086,23 @@ blockquote {
     height: 200px;
     width: 150px;
   }
+}
+/* watches image */
+.watch-image-div {
+  text-align: center;
+}
+
+.watch-image {
+  border: 3px solid #bd8100;
+}
+
+.watch-title {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.ref-link:hover {
+  color: #bd8100;
+  text-decoration: underline;
 }
