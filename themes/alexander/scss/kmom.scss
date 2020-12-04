@@ -1,14 +1,14 @@
 .container-report {
+    width: 80%;
+    margin: auto;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 200px 700px;
     gap: 1em 1em;
-    padding: 0 1em;
-    max-width: 48em;
-    padding: 0 0.5em;
-    margin: 0 auto;
+    padding: 1em;
 }
 
 .container-report h1 {
-    grid-column: span 2;
     justify-self: center;
 }
 
@@ -21,6 +21,7 @@
 
 .kmom-report.report {
     padding-top: 7em;
+    width: 200px;
 }
 
 .kmom-a:hover {

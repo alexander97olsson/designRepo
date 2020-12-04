@@ -1,18 +1,18 @@
 ---
-Title: kmom02
+Title: kmom03
 Description: This is the page for kmom03.
 Template: kmom
 ---
 
 Report
 ==========================
-
+<div class="container-report">
 <div class="kmom-report report">
     <a class="kmom-a" href="kmom01">Kmom01</a>
     <a class="kmom-a" href="kmom02">Kmom02</a>
     <a class="kmom-a" href="kmom03">Kmom03</a>
     <a class="kmom-a" href="kmom04">Kmom04</a>
-    <a class="kmom-a" href="#">Kmom05</a>
+    <a class="kmom-a" href="kmom05">Kmom05</a>
     <a class="kmom-a" href="#">Kmom06</a>
     <a class="kmom-a" href="#">Projekt</a>
 </div>
@@ -26,4 +26,5 @@ Jag nöjde mig med att bara göra om min ”raport” sida eftersom jag ansåg a
 
 Min ”TIL” för detta kursmoment är nog faktiskt helheten med CSS-Grid och hur det kan hjälpa till med strukturen. Jag gillar det starkt och uppskattar hur enkelt det är att få ett bra system och CSS-Grid genom att bara definiera att delar är CSS-Grid. Jag kommer fortsätta jobba vidare med CSS-Grid och tycker detta kursmoment var väldigt lärorikt och roligt.<br><br>
 
+</div>
 </div>

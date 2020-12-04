@@ -1,6 +1,6 @@
 ---
-Title: kmom04
-Description: This is the page for kmom04.
+Title: kmom05
+Description: This is the page for kmom05.
 Template: kmom
 ---
 
@@ -17,7 +17,7 @@ Report
     <a class="kmom-a" href="#">Projekt</a>
 </div>
 <div class="kmom-report text">
-    <h1>Kmom04</h1>
+    <h1>Kmom05</h1>
 Jag gillade skrivuppgiften, jag uppskattar att vi inte bara kodar utan även kollar på teori och hur  man ska tänka när man skapar en hemsida. Det finns mycket att tänka på som man kanske inte är helt medveten om. Som i detta fallet med färger och färgteorier. Jag tyckte skrivuppgiften var lärorik och jag fick ut mycket av den och kan med hjälp av det applicera det på mina egna hemsidor i framtiden. <br><br>
 
 Jag valde att använda mig av complementary färgschema för min egna hemsida. Jag valde det för att lyfta fram specifika moment på hemsidan. Genom att jag använder mest av en av färgerna blir komplementfärgen mer tydlig för ögat när en användare tittar på hemsidan. Jag valde att blå skulle ha störst fokus på sidan medan orange bara skulle användas där det kändes som något jag ville lyfta fram. I mitt fall blev det knapparna i headern som jag ville lyfta fram lite extra. Jag skulle säga att jag använda mig av accentfärg med hjälp av det oranga som jag lyfter fram på hemsidan.<br><br>
@@ -27,4 +27,7 @@ När det kommer till mitt dark theme valde jag att mörka ner de valda färgerna
 Min “TIL” för detta kursmoment är hur viktigt det är att studera andra sidor för att få inspiration och lärdom. Det är lätt att fastna i sina egna tankar och ideer, det är därför viktigt att få inspiration från andra sidor för att kunna skapa bättre sidor i framtiden. Jag gillade att vi fick möjlighet under detta kursmoment att kunna jämföra tre olika sidor för att få en bättre förståelse kring färger och typografi.<br><br>
 
 </div>
+</div>
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/YO__alwymYQ" frameborder="0" allowfullscreen></iframe>
 </div>

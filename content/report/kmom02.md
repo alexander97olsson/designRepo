@@ -7,13 +7,13 @@ Template: kmom
 Report
 ==========================
 
-
+<div class="container-report">
 <div class="kmom-report report">
     <a class="kmom-a" href="kmom01">Kmom01</a>
     <a class="kmom-a" href="kmom02">Kmom02</a>
     <a class="kmom-a" href="kmom03">Kmom03</a>
     <a class="kmom-a" href="kmom04">Kmom04</a>
-    <a class="kmom-a" href="#">Kmom05</a>
+    <a class="kmom-a" href="kmom05">Kmom05</a>
     <a class="kmom-a" href="#">Kmom06</a>
     <a class="kmom-a" href="#">Projekt</a>
 </div>
@@ -26,4 +26,5 @@ Jag ska fortsätta jobba vidare med mitt tema senare i kursen eftersom jag inte 
 Jag valde att dela upp min kod på två olika sätt. Jag använder mig av två olika mappar, den första heter style.scss som även är den som innehåller det mesta för att göra hemsidan snygg. Jag importerar olika saker genom ”@import” i filen style.scss. Den andra mappen jag använder är varibles.scss, den mappen har alla variabler jag kommer använda genom alla kursmoment. Just nu innehåller den bara två olika variabler mest för att testa att det fungerar och ha en grund till senare. De variabler jag använder är två färgkoder som är kopplade till både footer och header.<br><br>
 
 Min ”TIL” för detta kursmoment är nog möjligheten att kunna jobba utan att skriva i css. Jag hade ingen aning om att det fanns olika ”bibliotek” för att skapa csskod. Jag gillar starkt upplägget av SASS och ser fram emot att fortsätta och lära mig mer.<br><br>
+</div>
 </div>

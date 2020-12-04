@@ -6,13 +6,13 @@ Template: kmom
 
 Report
 ==========================
-
+<div class="container-report">
 <div class="kmom-report report">
     <a class="kmom-a" href="kmom01">Kmom01</a>
     <a class="kmom-a" href="kmom02">Kmom02</a>
     <a class="kmom-a" href="kmom03">Kmom03</a>
     <a class="kmom-a" href="kmom04">Kmom04</a>
-    <a class="kmom-a" href="#">Kmom05</a>
+    <a class="kmom-a" href="kmom05">Kmom05</a>
     <a class="kmom-a" href="#">Kmom06</a>
     <a class="kmom-a" href="#">Projekt</a>
 </div>
@@ -26,4 +26,5 @@ När jag tänker på förutfattade meningar eller etablerade övertygelsen inom 
 Jag tycker det var svårt att skapa sin egen layout eftersom det är mycket att tänka på nu början. Det var roligt och lärorikt men det var svårt att få det att bli snyggt och ha en bra design. Det gick bra till slut men det tog tid och det är svårt att få det så bra som möjligt.<br><br>
 
 Min ”TIL” för denna vecka är Github. Jag har arbetat med Github tidigare eftersom vi hade projekt under Technical Artist programmet där det var optimalt att använda sig av Github för att kunna jobba på samma projekt. Jag har däremot aldrig jobbat med Git via konsolen och att pusha och pulla via den. Den erfarenhet jag har av Github är att pusha och pulla via Github Desktop, vilket för det vi gjorde var väldigt smidigt. Jag gillar starkt Github och jag ser fram emot att fortsätta jobba och lära mig mer om det verktyget längre fram.<br><br>
+</div>
 </div>

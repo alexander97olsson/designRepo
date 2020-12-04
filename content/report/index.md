@@ -59,7 +59,7 @@ Report
     <h1>Kmom05</h1>
     <p>Read about kmom05...</p>
     <div class="button-box">
-        <a class="button" href="#">
+        <a class="button" href="report/kmom05">
             <span class="arrow">
                 <i class="fas fa-arrow-right fa-2x"></i>
             </span>
