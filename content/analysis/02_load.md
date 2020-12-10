@@ -85,9 +85,9 @@ Jag skulle säga att min gräns på absolut laddningstid är 1 sekund. Allt unde
 5. Referenser
 -----------------------
 
-<a>Aftonbladet</a> <a class="ref-link" href="https://www.aftonbladet.se/nyheter/kolumnister/a/kJbggB/succesommar-for-aftonbladet">(www.aftonbladet.com(Lena K Samuelsson))</a><br>
-<a>Aftonbladet</a> <a class="ref-link" href="https://www.aftonbladet.se/">(www.aftonbladet.com)</a><br>
-<a>Expressen</a> <a class="ref-link" href="https://www.expressen.se/">(www.expressen.com)</a><br>
+<a>Aftonbladet</a> <a class="ref-link" href="https://www.aftonbladet.se/nyheter/kolumnister/a/kJbggB/succesommar-for-aftonbladet">(www.aftonbladet.se(Lena K Samuelsson))</a><br>
+<a>Aftonbladet</a> <a class="ref-link" href="https://www.aftonbladet.se/">(www.aftonbladet.se)</a><br>
+<a>Expressen</a> <a class="ref-link" href="https://www.expressen.se/">(www.expressen.se)</a><br>
 <a>Svenska Dagbladet</a> <a class="ref-link" href="https://www.svd.se/">(www.svd.se)</a><br>
 <a>PageSpeed</a> <a class="ref-link" href="https://developers.google.com/speed/pagespeed/insights/?hl=sv">(www.developers.google.com.se)</a>
 

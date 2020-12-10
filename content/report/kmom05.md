@@ -13,7 +13,7 @@ Report
     <a class="kmom-a" href="kmom03">Kmom03</a>
     <a class="kmom-a" href="kmom04">Kmom04</a>
     <a class="kmom-a" href="kmom05">Kmom05</a>
-    <a class="kmom-a" href="#">Kmom06</a>
+    <a class="kmom-a" href="kmom06">Kmom06</a>
     <a class="kmom-a" href="#">Projekt</a>
 </div>
 <div class="kmom-report text">
@@ -29,5 +29,5 @@ Min “TIL” för detta kursmoment är nog att jag lärt mig använda devtools 
 </div>
 </div>
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/YO__alwymYQ" frameborder="0" allowfullscreen></iframe>
+    <iframe title="youtube-video" src="https://www.youtube.com/embed/YO__alwymYQ" frameborder="0" allowfullscreen aria-hidden="true"></iframe>
 </div>

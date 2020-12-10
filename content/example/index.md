@@ -163,22 +163,22 @@ Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incid
 <fieldset>
     <legend>Legend</legend>
     <label>Label</label>
-    <input type="checkbox"/>
-    <input type="checkbox" checked="checked"/>
-    <input type="radio"/>
-    <input type="radio" checked="checked"/><br/>
-    <input type="text" value="Lorem ipsum"/>
-    <input type="password" value="Ut enim"/><br/>
-    <input type="submit" value="Submit"/>
-    <input type="reset" value="Reset"/>
-    <input type="button" value="Button (Input)"/>
+    <input type="checkbox" aria-label="example"/>
+    <input type="checkbox" aria-label="example" checked="checked"/>
+    <input type="radio" aria-label="example"/>
+    <input type="radio" aria-label="example" checked="checked"/><br/>
+    <input type="text" aria-label="example" value="Lorem ipsum"/>
+    <input type="password" aria-label="example" value="Ut enim"/><br/>
+    <input type="submit" aria-label="example" value="Submit"/>
+    <input type="reset" aria-label="example" value="Reset"/>
+    <input type="button" aria-label="example" value="Button (Input)"/>
     <button>Button</button><br/>
-    <textarea>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua<br/>.</textarea><br/>
-    <select>
+    <textarea aria-label="example">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua<br/>.</textarea><br/>
+    <select aria-label="example">
         <option>Lorem ipsum</option>
         <option>Ut enim</option>
     </select><br/>
-    <select multiple="multiple">
+    <select multiple="multiple" aria-label="example">
         <option>Lorem ipsum</option>
         <option selected="selected">Ut enim</option>
         <option>Quis aute iure</option>
