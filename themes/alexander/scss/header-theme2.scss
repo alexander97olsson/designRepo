@@ -1,0 +1,99 @@
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $header-color;
+    color: #ffffff;
+    //padding: 0 2em;
+    background-image: url("../../../assets/img/background-theme2.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom: 3px solid $lines-color;
+}
+
+.site-header a,
+.site-header a:visited {
+    color: $main-text-color-white;
+}
+
+.header-image-div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    padding: 1.5em 0 1.5em 1em;
+    padding-top: 4em;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0;
+    font-weight: bold;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: #5D737E;
+    width: 200px;
+    margin: 3px;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav ul li:hover {
+    transition: 0.6s ease;
+}
+
+.buttons {
+    font-family: 'Crimson Text', serif;
+}
+
+.buttonContainer {
+    margin: 20px;
+}
+
+.active {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-text {
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+#nav a:hover,
+#nav-toggle:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.6s ease;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #nav ul li {
+        width: 100%;
+        margin: 5px;
+    }
+    .header-image-div {
+        display: none;
+    }
+}

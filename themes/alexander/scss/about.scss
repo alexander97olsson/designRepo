@@ -1,0 +1,39 @@
+.about-image-div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-cont {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.color-palett {
+    margin-bottom: 10px;;
+}
+
+.image-about {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    .image-about {
+        height: auto;
+        margin: 0 auto;
+    }
+}

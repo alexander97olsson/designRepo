@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
+    <link rel="icon" href="{{ theme_url }}/../shared/img/lawyerlogo.png">
     <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 
     {% if meta.description %}
@@ -31,13 +31,15 @@
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
+        <div class="header-image-div">
+            <img class"header-image" src="assets/img/lawyerlogo.png" height="160px" width="160px">
+        </div>
         <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
         <div id="nav" role="navigation" tabindex="-1">
-            <a class="header-text">Alexander Olsson - Homepage</a>
-            <ul>
+            <ul class"buttonContainer">
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                 <li{% if page.id == current_page.id %} class="active" {% endif %}>
                     <a class="buttons" href="{{ page.url }}">{{ page.title }}</a>
@@ -45,14 +47,74 @@
                     {% endfor %}
             </ul>
         </div>
-        <div class="flash-region">
-                <img class="flash-img" src="{{ base_url }}/image/horisont.jpg?sc=banner1&a=40,0,0,0" alt="water">
-        </div>
+        {% if config.session.theme == "dark" %}
+            <div class="text-first">
+                <h1 class="text-medarbetare text-color-theme">Vi är en advokatbyrå som är till för dig!</h1>
+                <a class="text-color-theme">Vi arbetar med brottmål, både som försvarare och målsägandebiträde, familjerätt,
+                    avtalsrätt, skadeståndsrätt, socialrätt (LVU, LVM, LPT och LRV) samt migrationsrätt.
+                    På byrån talas engelska, spanska, arabiska, franska, assyriska/syrianska, kroatiska,
+                    serbiska och bosniska.
+                </a>
+            </div>
+        {% endif %}
     </header>
     <div class="main" role="main">
-        <div class="container">
-            {{ content }}
+        {% if config.session.theme != "dark" %}
+        <div class="text-first">
+            <h1 class="text-medarbetare text-color-theme">Vi är en advokatbyrå som är till för dig!</h1>
+            <a class="main-text">Vi arbetar med brottmål, både som försvarare och målsägandebiträde, familjerätt,
+                avtalsrätt, skadeståndsrätt, socialrätt (LVU, LVM, LPT och LRV) samt migrationsrätt.
+                På byrån talas engelska, spanska, arabiska, franska, assyriska/syrianska, kroatiska,
+                serbiska och bosniska.
+            </a>
         </div>
+        {% endif %}
+        <div class="info-boxes">
+            <div class="info-box">
+                <h1 class="text-color-theme" >Vi finns i hela Sverige</h1>
+                <p class="text-color-theme">I takt med att vår verksamhet har vuxit har vi öppnat kontor i Södertälje, Uppsala,
+                    Örebro, Linköping, Västerås och Gävle utöver vårt huvudkontor som ligger i Stockholm.
+                    Vi åtar oss även ärenden från människor som bor i andra delar av Sverige. Då kan det
+                    bli fråga om särskilda regler om offentlig försvarare, målsägandebiträde och rättshjälp.
+                    Ring eller maila oss så förklarar vi hur det fungerar.</p>
+            </div>
+            <div class="info-box">
+                <h1 class="text-color-theme">Rätten till juridisk hjälp</h1>
+                <p class="text-color-theme">Om du är misstänkt för ett brott har du i allmänhet rätt till offentlig försvarare.
+                    Har du i stället råkat ur för ett brott blir det i stället fråga om målsägandebiträde.
+                    I andra fall kan du ha rätt till rättshjälp eller rättsskydd från din hemförsäkring.
+                </p>
+            </div>
+            <div class="info-box">
+                <h1 class="text-color-theme">Samhället i juridikens hjärta</h1>
+                <p class="index-para text-color-theme">Vi som dagligen arbetar med olika mål får en värdefull inblick i vårt rättssystem.
+                    Det vill vi gärna vara med och påverka genom att vara med i den allmänna debatten.
+                    Därför publiceras varje vecka ett inlägg på advokatbyråns blogg, i inläggen kommenteras olika rättsfall,
+                    kommande lagar och andra delar inom juridiken.
+                </p>
+            </div>
+            <div class="info-box project">
+                <a class="button-box-info" href="contact">
+                    <p class="button-text-p">Kontakta oss</p>
+                </a>
+            </div>
+        </div>
+        <h1 class="text-news text-color-theme">Senaste nyheterna</h1>
+            <div class="news">
+                {% for image in meta.news %}
+                    <div class="news-container">
+                            <picture class="pictures-news">
+                                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}">
+                                <img class="final-image-first" src="{{ base_url }}/image/gallery/{{ image.url }}&w=300" alt="{{image.alt}}">
+                                <div class="picture-news">
+                                    <h1 class="picture-news-name text-color-theme">{{ image.name }}</h1>
+                                    <h2 class="picture-news-name-h2">{{ image.info }}</h2>
+                                </div>
+                            </picture>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
     </div>
     <div class="footer">
         <div class="container">
@@ -61,13 +123,18 @@
                 {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">
                         <i class="{{ social.icon }}" aria-hidden="true"></i>
+                        <a class="footer-icon-text">{{ social.text }}</a>
+                        <br>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}
             </div>
             <p class="footer-text">
-                Alexander Olsson 2020 - PA1436 H20 lp2 Teknisk webbdesign och användbarhet
+                © 1999-2020 Ludviga Af Solstråles advokatbryå Sverige AB, Org.Nr: 123456-7891
             </p>
+            <div class="footer-div-image">
+                <img src="assets/img/lawyerlogo.png" class="footer-image">
+            </div>
         </div>
     </div>
 

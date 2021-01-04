@@ -1,21 +1,65 @@
 .gallery {
-    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em 1em;
     padding: 1em;
+    width: 1000px;
+    margin: 0 auto;
 }
 
-@media (max-width: 992px) {
+.coworker-container {
+    background-color: $main-text-color;
+    box-shadow: 2px 2px 5px $main-text-color-black;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pictures {
+    margin-top: 20px;
+}
+
+.final-image {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.picture-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.picture-text-name {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.picture-text-a {
+    margin: 10px;
+}
+
+.picture-text-place {
+    margin: 10px;
+    color: rgb(141, 141, 141);
+}
+
+.text-medarbetare {
+    text-align: center;
+}
+
+@media (max-width: 1060px) {
     .gallery {
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        width: 700px;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 767px) {
     .gallery {
-        grid-template-columns: 1fr;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

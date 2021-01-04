@@ -1,19 +1,17 @@
 ---
-Title: Home
+Title: Ludviga Af Solstråle
 Description: This is the index page.
+news:
+    - alt: nyhet1
+      url: readingman.jpg?h=300&crop-to-fit&aspect-ratio=1:1
+      name: Lämnade in stämningsansökan – utan klientens samtycke
+      info: En advokat underlät att kontakta sin klient innan hon ingav en stämningsansökan till tingsrätten och informerade inte heller klienten om hennes rätt att kontakta ett ombud för rådgivning.Nu prickas advokaten av samfundets disciplinnämnd.
+    - alt: nyhet2
+      url: papper.jpg?h=300&crop-to-fit&aspect-ratio=1:1
+      name: Information om samboavtal
+      info: I vardagen kan skillnaden mellan samboförhållande och äktenskap verka hårfin, men juridiskt förhåller det sig lite annorlunda. Ett exempel är att sambor inte automatiskt ärver varandra. De blir inte heller underhållsskyldiga gentemot varandra efter en separation.
+    - alt: nyhet3
+      url: stockholm.jpg?h=300&crop-to-fit&aspect-ratio=1:1
+      name: Tre personer misstänka för mord i Stockholm
+      info: Under tisdagsförmiddagen hölls det tre häktningsförhandlingar i Uppsala tingsrätt där fem personer greps i helgen, detta med anledning av det misstänka mordet i knivsta-fallet. Det pågår tre häktningsförhandlingar i Uppsala tingsrätt under tisdagsförmiddagen på grund av det misstänkta mordet i Knivsta, där fem personer greps i helgen.
 ---
-
-About me
-==========================
-
-<div class="image-div">
-    <img class="homepage-image" src="assets/img/alexander.jpg" alt="Alexander" width="500" height="600">
-</div>
-
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
-
-Jag heter Alexander Olsson och är född i Danderyd i Stockholm. Jag har även bott en del av mitt liv i Göteborg när jag var liten. Jag flyttade till Karlskrona för 4 år sedan och började plugga Technical Artist på Blekinge Tekniska Högskola. Jag gick ut 2020 och valde att fortsätta plugga men denna gång webbprogrammering. Anledning till det var att jag fått upp synen för webbprogrammering genom att jag pluggad några kurser vid sidan av och nu kändes det rätt att ta och testa programmet på BTH.
-
-På fritiden gillar jag att spela dator, träna och även att laga mat. Jag älskar även att spela innebandy och jag spelat innebandy nästan hela mitt liv. Det är dock lite svårt här i Karlskrona att hålla uppe det. Jag har även varit tränare/domare för unga innebandyspelare.
-
-Tack så mycket för mig!

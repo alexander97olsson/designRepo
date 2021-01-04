@@ -1,19 +1,16 @@
 ---
 
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/alexander97olsson/designRepo
-      icon: fab fa-github
-    - title: Link till Facebook.
+    - title: Link till Mail.
+      url: http://hotmail.com/
+      icon: fas fa-envelope-square
+      text: ludvigaafsolstroles@Ludvigaafsolstroles.com
+    - title: Link till FaceBook.
       url: https://www.facebook.com/
-      icon: fab fa-facebook
-    - title: Link till Youtube.
-      url: https://www.youtube.com/
-      icon: fab fa-youtube
-    - title: Dark Mode
+      icon: fab fa-facebook-square
+      text: Facebook.com/Ludvigaafsolstroles
+    - title: Theme
       url: ?action=theme
-      icon: fas fa-moon
-    - title: Destroy Session
-      url: ?action=session_destroy
-      icon: fas fa-trash-alt
+      icon: fas fa-balance-scale
+      text: Theme
 ---
